@@ -1,0 +1,6 @@
+# !SESSION 2020-05-07 19:19:53.094
+# version: 1.1
+# verbose: true
+# The following option strings are specified for this debug session:
+# 	null
+| main | 2020-05-07 19:19:53.094 | com.iar.ide.common | /debug | com.iar.ide.common.logging.Logger | traceFile | 194 | Using CMSIS pack repositories: http://links.iar.com/cmsis/pack |
