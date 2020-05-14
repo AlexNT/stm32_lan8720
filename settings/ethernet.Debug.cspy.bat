@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.general.xcl" --backend -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.general.xcl" --backend -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.driver.xcl" 
 
 @echo off 
 :end

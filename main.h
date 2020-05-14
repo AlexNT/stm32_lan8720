@@ -55,10 +55,9 @@
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
-#define USE_LCD        /* enable LCD  */  
+//#define USE_LCD        /* enable LCD  */  
 //#define USE_DHCP   
- 
-   
+    
 /* MAC ADDRESS*/
 #define MAC_ADDR0   00
 #define MAC_ADDR1   0x80

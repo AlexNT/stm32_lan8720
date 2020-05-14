@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.general.xcl" --backend -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.general.xcl" --backend -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Projects_ARM\stm32_lan8720_ethernet-master\settings\ethernet.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Projects_ARM\stm32_lan8720\settings\ethernet.Debug.driver.xcl" 
 }
